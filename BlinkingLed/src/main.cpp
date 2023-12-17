@@ -3,6 +3,10 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
+
+
+extern "C" void app_main();
+
 #define LED_PIN GPIO_NUM_2
 
 void app_main()
